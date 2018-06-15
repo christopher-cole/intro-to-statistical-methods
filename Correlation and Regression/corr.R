@@ -1,0 +1,10 @@
+femur<-c(38,56,59,64,74)
+humerus<-c(41,63,70,72,84)
+cor(femur,humerus)
+plot(femur,humerus)
+r<-.5
+x<-rnorm(100)
+z<-rnorm(100)
+y<-r*x+sqrt(1-r^2)*z
+par(mfrow=c(3,2))
+plot(x,y)

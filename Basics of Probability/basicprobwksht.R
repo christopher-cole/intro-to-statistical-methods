@@ -14,7 +14,7 @@ table(new_data)
 #the proportions are pretty close in total
 #2.
 #a.
-#THe probability that exactly one of the 25 are initially tagged is 0.005581686. This is because 12% were aleady captured, tagged, and then put back, we take 25 of the 500, so to get exactly 1 that's tagged its (probability of tortise that isn't tagged ^ 24)*(probability tortise is tagged ^ 1)
+#THe probability that exactly one of the 25 are initially tagged is 0.139542142360379. This is because 12% were aleady captured, tagged, and then put back, we take 25 of the 500, so to get exactly 1 that's tagged its (probability of tortise that isn't tagged ^ 24)*(probability tortise is tagged ^ 1). We multiply that number by 25 choose 1, which is 25
 #b.
 #Probability that: 0 - 25 are tagged:
 total <- 0

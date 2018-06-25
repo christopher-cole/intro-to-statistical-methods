@@ -1,0 +1,7 @@
+curve(dnorm(x),-3,3)
+length(morley[,3])
+mean(morley[,3])
+sd(morley[,3])
+par(mfrow=c(1,2))
+hist(morley[,3])
+qqnorm(morley[,3])
